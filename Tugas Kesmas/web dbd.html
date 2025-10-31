@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sibegi</title>
+    <script>
+      let d = new Date();
+      alert("selamat datang di sibegi");
+    </script>
+  </head>
+  <body>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FFFFFF; /* Putih */
+            color: #000000; /* Hitam */
+        }
+        header {
+            background-color: #4CAF50; /* Hijau */
+            color: #FFFFFF; /* Putih */
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #000000; /* Hitam */
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #FFFFFF; /* Putih */
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #4CAF50; /* Hijau */
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #F0F0F0; /* Abu-abu muda untuk kontras */
+            border-radius: 8px;
+        }
+        h2 {
+            color: #4CAF50; /* Hijau */
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin: 10px 0;
+        }
+        footer {
+            background-color: #000000; /* Hitam */
+            color: #FFFFFF; /* Putih */
+            backdrop-filter: blur(20px);
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .toggle-btn {
+            display: none;
+            background-color: #4CAF50; /* Hijau */
+            color: #FFFFFF; /* Putih */
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+        }
+        @media (max-width: 600px) {
+            nav {
+                display: none;
+            }
+            .toggle-btn {
+                display: block;
+            }
+            nav.show {
+                display: block;
+            }
+        }
+    </style>
+  </body>
+  <body>
+    </button>
+    <header>
+      <h1>Selamat datang di SiBeGi</h1>
+      <p>Pelajari tentang nyamuk Aedes dan cara mencegah demam berdarah.</p>
+    </header>
+
+    <button class="toggle-btn" onclick="toggleMenu()">Menu</button>
+    <nav id="nav-menu">
+      <a href="#apa-itu">Apa Itu?</a>
+      <a href="#gejala">Gejala</a>
+      <a href="#pencegahan">Pencegahan</a>
+      <a href="#tempat-berkembang">Tempat Berkembang Biak</a>
+      <a href="#Fakta">Infografis</a>
+    </nav>
+
+    <section id="apa-itu">
+      <h2>Apa Itu Nyamuk Demam Berdarah?</h2>
+      <p>
+        Nyamuk demam berdarah adalah jenis nyamuk Aedes aegypti atau Aedes
+        albopictus yang menyebarkan virus dengue. Virus ini menyebabkan demam
+        berdarah, penyakit yang bisa berbahaya jika tidak ditangani.
+      </p>
+      <p>
+        Fakta: Nyamuk ini aktif di siang hari dan berkembang biak di air
+        tergenang.
+      </p>
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Aedes_aegypti_CDC-Gathany.jpg/250px-Aedes_aegypti_CDC-Gathany.jpg"
+        alt="Foto nyamuk Aedes aegypti, penyebab demam berdarah"
+      />
+      <p>
+        <em>Sumber: Wikimedia Commons - Ilustrasi nyamuk Aedes aegypti.</em>
+      </p>
+    </section>
+
+    <section id="gejala">
+      <h2>Gejala Demam Berdarah</h2>
+      <ul>
+        <li>Demam tinggi mendadak</li>
+        <li>Sakit kepala parah</li>
+        <li>Nyeri sendi dan otot</li>
+        <li>Ruam kulit</li>
+        <li>Pendarahan ringan (seperti mimisan)</li>
+      </ul>
+      <p>
+        Jika gejala muncul, segera konsultasikan ke dokter. Pencegahan lebih
+        baik daripada pengobatan.
+      </p>
+    </section>
+
+    <section id="pencegahan">
+      <h2>Cara Pencegahan</h2>
+      <ul>
+        <li>Buang air tergenang di sekitar rumah</li>
+        <li>Gunakan kelambu saat tidur</li>
+        <li>Kenakan pakaian panjang</li>
+        <li>Gunakan obat anti-nyamuk</li>
+        <li>Vaksinasi jika tersedia</li>
+      </ul>
+      <p>
+        Program pemerintah seperti fogging juga membantu mengontrol populasi
+        nyamuk.
+      </p>
+    </section>
+
+    <section id="tempat-berkembang">
+      <h2>Kondisi Tempat Berkembang Biak Nyamuk</h2>
+      <p>
+        Nyamuk Aedes berkembang biak di air tergenang yang bersih dan tenang.
+        Tempat-tempat umum meliputi:
+      </p>
+      <ul>
+        <li>Genangan air di halaman rumah</li>
+        <li>Ban bekas atau pot bunga yang terisi air</li>
+        <li>Tempat penampungan air seperti drum atau ember</li>
+        <li>Daerah basah seperti selokan atau kolam kecil</li>
+      </ul>
+      <p>
+        Air tergenang selama 7-10 hari cukup untuk nyamuk bertelur dan
+        berkembang. Pastikan lingkungan rumah selalu kering dan bersih.
+      </p>
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Mosquito_larvae.jpg/250px-Mosquito_larvae.jpg"
+        alt="Foto genangan air sebagai tempat berkembang biak nyamuk"
+      />
+      <p>
+        <em
+          >Sumber: Wikimedia Commons - Contoh genangan air yang menjadi sarang
+          nyamuk.</em
+        >
+      </p>
+    </section>
+
+    <section id="Fakta">
+      <h2>Infografis</h2>
+      <img src="Infografis.jpg">
+    </section>
+  </body>
+</html>
